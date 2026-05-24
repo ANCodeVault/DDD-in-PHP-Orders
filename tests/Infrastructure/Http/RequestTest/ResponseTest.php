@@ -2,7 +2,7 @@
 
 namespace Tests\Infrastructure\Http\RequestTest;
 
-use App\Infrastructure\Http\Response;
+use App\Shared\Response;
 use DateTimeImmutable;
 use PHPUnit\Framework\TestCase;
 

@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 
 if (!function_exists('request')) {
-    function request(): \App\Infrastructure\Http\Request
+    function request(): \App\Shared\Request
     {
-        return new \App\Infrastructure\Http\Request(
+        return new \App\Shared\Request(
             $_SERVER,
             $_GET,
             $_POST,
@@ -17,9 +17,9 @@ if (!function_exists('request')) {
 }
 
 if (!function_exists('response')) {
-    function response(): \App\Infrastructure\Http\Response
+    function response(): \App\Shared\Response
     {
-        return new \App\Infrastructure\Http\Response(
+        return new \App\Shared\Response(
             200,
             'OK',
             [],
