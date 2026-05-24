@@ -4,7 +4,7 @@ declare(strict_Types=1);
 
 namespace Tests\Infrastructure\Http\RequestTest;
 
-use App\Infrastructure\Http\Request;
+use App\Shared\Request;
 use PHPUnit\Framework\TestCase;
 
 class RequestTest extends TestCase
